@@ -66,7 +66,7 @@ function renderCatCard(response) {
 }
 function catCardCreate(cat) {
   if (cat.length === 0) {
-    Notiflix.Notify.failure('Вибачте, інформація по даному коту оновлюється');
+    Notiflix.Notify.failure('informacje o tym kodzie są aktualizowane');
     onPageLoad();
     pLoader.style.display = 'none';
     return;
